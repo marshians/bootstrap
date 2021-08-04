@@ -32,7 +32,7 @@ $body-color: $color-100;
 $primary:   $color-green;
 $secondary: $color-orange;
 $light: $color-100;
-$dark: $color-900;
+$dark: $color-800;
 $text-muted: $color-500;
 
 $blue:    $color-cyan;
@@ -105,6 +105,8 @@ $table-variants: (
  	border-radius: $border-radius;
 }
 
+// nav
+$navbar-light-active-color: $color-700;
 
 // Breadcrumb
 $breadcrumb-divider-color: $color-300;
