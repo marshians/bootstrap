@@ -1,0 +1,113 @@
+// node_modules/bootstrap/scss/_variables.scss
+
+
+// My variables
+$color-900: #19181a;
+$color-800: #221f22;
+$color-700: #2d2a2e;
+$color-600: #403e41;
+$color-500: #5b595c;
+$color-400: #727072;
+$color-300: #939293;
+$color-200: #c1c0c0;
+$color-100: #fcfcfa;
+
+$color-cyan: #78dce8;
+$color-green: #a9dc76;
+$color-violet: #ab9df2;
+$color-orange: #fc9867;
+$color-red: #ff6188;
+$color-yellow: #ffd866;
+
+
+// Overrides
+$border-radius: .25rem;
+
+$font-family-sans-serif:      "JetBrains Mono", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       "JetBrains Mono", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$font-weight-base: 500;
+
+$body-bg: $color-700;
+$body-color: $color-100;
+$primary:   $color-green;
+$secondary: $color-orange;
+$light: $color-100;
+$dark: $color-900;
+$text-muted: $color-500;
+
+$blue:    $color-cyan;
+$indigo:  $color-violet;
+$purple:  $color-violet;
+$pink:    $color-red;
+$red:     $color-red;
+$orange:  $color-orange;
+$yellow:  $color-yellow;
+$green:   $color-green;
+$teal:    $color-cyan;
+$cyan:    $color-cyan;
+
+$white:    $color-100;
+$gray-100: $color-100;
+$gray-200: $color-200;
+$gray-300: $color-300;
+$gray-400: $color-400;
+$gray-500: $color-500;
+$gray-600: $color-600;
+$gray-700: $color-700;
+$gray-800: $color-800;
+$gray-900: $color-900;
+$black:    $color-900;
+
+// Accordion
+$accordion-bg: $color-800;
+$accordion-button-bg: $color-200;
+$accordion-button-color: $color-800;
+$accordion-icon-color: $color-800;
+
+$accordion-button-active-bg: $color-green;
+$accordion-button-active-color: $color-800;
+$accordion-icon-active-color: $color-800;
+
+// Form
+$form-label-color: $color-orange;
+$form-label-margin-bottom: .2rem;
+
+$input-bg: $color-800;
+$input-color: $color-green;
+$input-border-color: $color-green;
+
+$input-focus-color: $color-cyan;
+$input-focus-border-color: $color-cyan;
+$input-focus-box-shadow: none;
+
+$form-check-label-color: $color-orange;
+$form-check-input-checked-color: $color-800;
+
+// Table
+$table-bg: $color-800;
+$table-striped-bg: $color-900;
+$table-th-font-weight: 900;
+
+$table-variants: (
+	"primary":    $primary,
+	"secondary":  $secondary,
+	"success":    $primary,
+	"info":       $cyan,
+	"warning":    $red,
+	"danger":     $red,
+	"light":      $light,
+	"dark":       $dark,
+);
+
+.table.rounded {
+	border-collapse: collapse;
+ 	overflow: hidden;
+ 	border-radius: $border-radius;
+}
+
+
+// Breadcrumb
+$breadcrumb-divider-color: $color-300;
+$breadcrumb-active-color: $color-300;
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
