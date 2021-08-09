@@ -1,5 +1,30 @@
 // node_modules/bootstrap/scss/_variables.scss
 
+:root {
+--marshians-color-900: #19181a;
+--marshians-color-800: #221f22;
+--marshians-color-700: #2d2a2e;
+--marshians-color-600: #403e41;
+--marshians-color-500: #5b595c;
+--marshians-color-400: #727072;
+--marshians-color-300: #939293;
+--marshians-color-200: #c1c0c0;
+--marshians-color-100: #fcfcfa;
+--marshians-color-cyan: #78dce8;
+--marshians-color-green: #a9dc76;
+--marshians-color-violet: #ab9df2;
+--marshians-color-orange: #fc9867;
+--marshians-color-red: #ff6188;
+--marshians-color-yellow: #ffd866;
+
+--marshians-body-bg: var(--marshians-color-700);
+--marshians-body-color: var(--marshians-color-100);
+--marshians-primary:   var(--marshians-color-green);
+--marshians-secondary: var(--marshians-color-orange);
+--marshians-light: var(--marshians-color-100);
+--marshians-dark: var(--marshians-color-800);
+--marshians-text-muted: var(--marshians-color-500);
+}
 
 // My variables
 $color-900: #19181a;
