@@ -26,6 +26,6 @@
   "author": "Joshua Marsh <joshua@themarshians.com>",
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "name": "@icub3d/marshians-bootstrap"
 }
