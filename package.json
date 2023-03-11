@@ -25,5 +25,5 @@
   "description": "Bootstrap theme for the Marshians.",
   "version": "2.0.2",
   "repository": "https://github.com/marshians/bootstrap",
-  "name": "@marshian/bootstrap"
+  "name": "@marshians/bootstrap"
 }
