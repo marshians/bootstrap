@@ -2,9 +2,6 @@
   "dependencies": {
     "@popperjs/core": "^2.9.3"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "bootstrap": "^5.0.2",
@@ -23,9 +20,10 @@
   },
   "private": false,
   "license": "MIT",
-  "author": "Joshua Marsh <joshua@themarshians.com>",
+  "author": "Joshua Marsh <joshua.marshian@gmail.com>",
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
   "version": "2.0.2",
-  "name": "@icub3d/marshians-bootstrap"
+  "repository": "https://github.com/marshians/bootstrap"
+  "name": "@marshian/bootstrap"
 }
