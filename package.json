@@ -3,16 +3,16 @@
     "@popperjs/core": "^2.9.3"
   },
   "publishConfig": {
-     "registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "bootstrap": "^5.0.2",
     "bootstrap-icons": "^1.5.0",
-    "postcss-cli": "^8.3.1",
     "clean-css": "^5.1.4",
     "clean-css-cli": "^5.3.2",
-    "live-server": "^1.2.1",
+    "live-server": "^1.1.0",
+    "postcss-cli": "^8.3.1",
     "sass": "^1.37.5"
   },
   "scripts": {
@@ -24,7 +24,7 @@
   "private": false,
   "license": "MIT",
   "author": "Joshua Marsh <joshua@themarshians.com>",
-  "repository": "https://github.com/marshians/bootstrap",
+  "repository": "https://github.com/icub3d/marshians-bootstrap",
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
   "version": "1.5.0",
