@@ -2,6 +2,9 @@
   "dependencies": {
     "@popperjs/core": "^2.9.3"
   },
+  "publishConfig": {
+     "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "autoprefixer": "^10.3.1",
     "bootstrap": "^5.0.2",
@@ -25,5 +28,5 @@
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
   "version": "1.5.0",
-  "name": "marshians-bootstrap"
+  "name": "@icub3d/marshians-bootstrap"
 }
