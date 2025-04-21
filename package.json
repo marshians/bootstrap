@@ -2,7 +2,6 @@
   "scripts": {
     "scss": "sass --watch -I ./node_modules scss:dist",
     "build": "sass -I ./node_modules scss:dist",
-    "help": "sass --help",
     "minify": "cleancss --source-map -o dist/marshians.min.css dist/marshians.css",
     "start": "live-server --port=3000"
   },
@@ -20,5 +19,8 @@
   "dependencies": {
     "bootstrap": "^5.3.5",
     "sass": "^1.86.3"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3"
   }
 }
