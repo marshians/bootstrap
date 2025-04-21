@@ -10,7 +10,7 @@
   "author": "Joshua Marsh <joshua.marshian@gmail.com>",
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marshians/bootstrap.git"
