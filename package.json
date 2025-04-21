@@ -1,20 +1,8 @@
 {
-  "dependencies": {
-    "@popperjs/core": "^2.9.3"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.3.1",
-    "bootstrap": "^5.0.2",
-    "bootstrap-icons": "^1.5.0",
-    "clean-css": "^5.1.4",
-    "clean-css-cli": "^5.3.2",
-    "live-server": "^1.1.0",
-    "postcss-cli": "^8.3.1",
-    "sass": "^1.37.5"
-  },
   "scripts": {
-    "scss": "sass --watch scss:dist",
-    "build": "sass scss:dist",
+    "scss": "sass --watch -I ./node_modules scss:dist",
+    "build": "sass -I ./node_modules scss:dist",
+    "help": "sass --help",
     "minify": "cleancss --source-map -o dist/marshians.min.css dist/marshians.css",
     "start": "live-server --port=3000"
   },
@@ -28,5 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/marshians/bootstrap.git"
   },
-  "name": "@marshians/bootstrap"
+  "name": "@marshians/bootstrap",
+  "dependencies": {
+    "bootstrap": "^5.3.5",
+    "sass": "^1.86.3"
+  }
 }
