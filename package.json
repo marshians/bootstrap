@@ -10,7 +10,7 @@
   "author": "Joshua Marsh <joshua.marshian@gmail.com>",
   "main": "index.js",
   "description": "Bootstrap theme for the Marshians.",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/marshians/bootstrap.git"
@@ -18,7 +18,8 @@
   "name": "@marshians/bootstrap",
   "dependencies": {
     "bootstrap": "^5.3.5",
-    "sass": "^1.86.3"
+    "sass": "1.87.0",
+    "vite-plugin-sass": "^0.1.0"
   },
   "devDependencies": {
     "clean-css-cli": "^5.6.3"

@@ -1,4 +1,4 @@
-// node_modules/bootstrap/scss/_variables.scss
+@use "bootstrap/scss/bootstrap.scss";
 
 :root {
   --marshians-color-900: #11111b;
@@ -136,4 +136,3 @@ $navbar-light-active-color: $color-700;
 $breadcrumb-divider-color: $color-300;
 $breadcrumb-active-color: $color-300;
 
-@import "bootstrap/scss/bootstrap.scss";
